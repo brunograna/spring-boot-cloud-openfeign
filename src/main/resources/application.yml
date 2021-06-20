@@ -1,0 +1,11 @@
+logging:
+  level:
+    com.demo.openfeign.config: DEBUG
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: BASIC
